@@ -1,0 +1,249 @@
+ body {
+    padding: 0;
+    margin: 0;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
+    background-color: midnightblue;
+    background-image: url(../img/bgs.jpg); 
+   
+    
+}
+
+h1 {margin: 0;
+    font-family: 'Russo One', sans-serif;
+    font-size: 280%;
+    font-weight: 800;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+h2{
+margin: 0;
+padding-left:  40px;
+
+}
+
+p{
+   text-indent: 20px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+
+footer {
+        
+    margin-left: 65px;
+    width: 970px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.9;
+   margin: 0 auto;
+   padding-left: 20px;
+   margin-bottom: 30px;
+   
+    /*---------------------------------Тени-------------------------*/
+    -webkit-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+    -moz-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+    box-shadow: 0px 7px 20px -5px rgba(224,224,186,1);
+   }
+
+
+#header{
+ padding-top: 50px;
+ margin-left: 65px; 
+
+width: 1000px;
+height: 200px;
+margin: 0 auto;
+background-image: url(../img/telescop.jpg);
+background-repeat: no-repeat;
+
+ /*---------------------------------Тени-------------------------*/
+ -webkit-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+ -moz-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+ box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+}
+
+.offer {
+    padding-left: 50px;
+
+
+}
+
+.offer1 {
+    padding-left: 135px;
+
+
+}
+
+.offer2 {
+    padding-left: 140px;
+
+
+}
+
+.content{
+    margin-left: 65px;
+    width: 980px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: black;
+    opacity: 0.73;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;
+    word-spacing: normal;
+    z-index: 1;
+    /*---------------------------------Тени-------------------------*/
+    -webkit-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+    -moz-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+    box-shadow: 0px 7px 31px -5px rgba(224,224,186,1);
+}
+
+
+.menu li{
+    margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+    padding-left: 0; /*убираем левый отступ, равный 40px*/
+    display: inline-block;
+ 
+    list-style: none; /*убираем маркеры списка*/
+    background-color:#FF5600;
+    border-bottom: solid #9BED00;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 15px;
+    transition: .5s;
+     
+   }
+  
+  .menu li:hover{
+
+    
+    font-style: 1.5rem;
+    transform: scale(1.1);
+    border-bottom: solid #FF5600;
+  }
+
+
+ .menu a {
+    color:#071A71;
+    text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 600;
+    }/* убираем подчеркивание текста ссылок */
+
+    
+
+.h2cont{
+
+    padding-top: 20px;
+}
+
+   .refr {
+       display: block;
+       z-index: 2;
+       margin: 0 auto;
+      width: 370px;
+      height: 550px;
+       margin-bottom: 30px;
+       /* align-content: center; */
+
+         }  
+
+
+         .mont {
+           display:  inline-block;
+           align-content: center;
+            margin: 0 auto;
+            
+            width: 350px;
+            height: 280px;
+
+
+         }
+         .wrapper {
+        
+            margin: 0 auto;
+         display: flex ;
+         padding-left: 50px;
+         
+        
+         }
+
+        .wrapper2 {
+            margin: 0 auto;
+            display: flex;
+           
+            justify-content: space-between;
+            padding-left: 40px;
+            padding-right: 110px;
+
+         }
+         
+        .eq3{
+
+           float: right;
+           padding-left: 15px;
+           
+        }
+
+       /* .form{
+        text-align: center;
+        margin: 0 auto;
+        display: flex;
+        margin-top: 20px;
+       } */
+
+       .form1{
+
+       
+        margin: 0 auto;
+        margin-top: 40px;
+      }
+      .formmail{
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      
+      
+       .foot{
+       
+       
+        word-spacing: normal;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        text-align: center;
+       }
+       
+       .foot_a{
+           color:#FF5600 ;
+           
+       }
+
+       /* .footer {
+        
+        margin-left: 65px;
+        width: 980px;
+        height: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: black;
+        opacity: 0.73;
+       margin: 0 auto;
+       padding-left: 20px;
+       margin-bottom: 30px;
+       
+        /*---------------------------------Тени-------------------------*/
+        /* -webkit-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+        -moz-box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+        box-shadow: 0px 2px 31px -5px rgba(224,224,186,1);
+       } */ 
